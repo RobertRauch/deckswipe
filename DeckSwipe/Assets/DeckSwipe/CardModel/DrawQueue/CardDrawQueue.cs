@@ -6,6 +6,10 @@ namespace DeckSwipe.CardModel.DrawQueue {
 
 		private readonly List<IFollowup> queue = new List<IFollowup>();
 
+#if UNITY_EDITOR
+		public List<IFollowup> Queue { get { return queue; } }
+#endif
+
 		public IFollowup Next() {
 			if (queue.Count > 0) {
 				if (--queue[0].Delay == 0) {

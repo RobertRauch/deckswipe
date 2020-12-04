@@ -174,6 +174,7 @@ namespace DeckSwipe.World {
 		private void ShowVisibleSide() {
 			// Display correct card elements based on whether it's facing the main camera
 			bool isFacingCamera = Util.IsFacingCamera(gameObject);
+			//Debug.LogError("IN SHOW VISIBLE SIDE: " + isFacingCamera);
 			cardBackSpriteRenderer.enabled = !isFacingCamera;
 			cardFrontSpriteRenderer.enabled = isFacingCamera;
 			cardImageSpriteRenderer.enabled = isFacingCamera;

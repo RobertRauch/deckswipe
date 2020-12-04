@@ -1,0 +1,7 @@
+{
+    "field1": "value1",
+    "class1": {
+        "classfield1": "classvalue1",
+        "classfield2": "classvalue1"
+    }
+}

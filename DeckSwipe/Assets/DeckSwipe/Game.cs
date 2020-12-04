@@ -4,6 +4,7 @@ using DeckSwipe.Gamestate;
 using DeckSwipe.Gamestate.Persistence;
 using DeckSwipe.World;
 using Outfrost;
+using System;
 using UnityEngine;
 
 namespace DeckSwipe {
@@ -29,10 +30,12 @@ namespace DeckSwipe {
 		private int saveIntervalCounter;
 		private CardDrawQueue cardDrawQueue = new CardDrawQueue();
 
+
 		private void Awake() {
+			Application.targetFrameRate = -1;
 			// Listen for Escape key ('Back' on Android) that suspends the game on Android
 			// or ends it on any other platform
-			#if UNITY_ANDROID
+#if UNITY_ANDROID
 			inputDispatcher.AddKeyUpHandler(KeyCode.Escape,
 					keyCode => {
 						AndroidJavaObject activity = new AndroidJavaClass("com.unity3d.player.UnityPlayer")
@@ -97,7 +100,7 @@ namespace DeckSwipe {
 		}
 
 		public void CardActionPerformed() {
-			progressStorage.Progress.AddDays(Random.Range(0.5f, 1.5f),
+			progressStorage.Progress.AddDays(UnityEngine.Random.Range(0.5f, 1.5f),
 					daysPassedPreviously);
 			ProgressDisplay.SetDaysSurvived(
 					(int)(progressStorage.Progress.daysPassed - daysPassedPreviously));

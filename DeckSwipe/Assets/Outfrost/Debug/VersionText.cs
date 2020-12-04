@@ -13,7 +13,7 @@ namespace Outfrost.Debug {
 					                                        ? ", build " + Application.buildGUID
 					                                        : ""));
 		}
-		
+
 	}
 	
 }

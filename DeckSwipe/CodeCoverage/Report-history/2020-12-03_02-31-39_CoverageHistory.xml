@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<coverage version="1.0" date="2020-12-03_02-31-39" tag="">
+  <assembly name="EditMode">
+    <class name="Tests.CardDrawQueueTests" coveredlines="40" coverablelines="40" totallines="71" coveredbranches="0" totalbranches="0" />
+    <class name="Tests.JsonTests" coveredlines="15" coverablelines="15" totallines="37" coveredbranches="0" totalbranches="0" />
+    <class name="Tests.UtilTests" coveredlines="58" coverablelines="58" totallines="102" coveredbranches="0" totalbranches="0" />
+  </assembly>
+  <assembly name="Outfrost.DeckSwipe">
+    <class name="ActionPreview" coveredlines="5" coverablelines="35" totallines="79" coveredbranches="0" totalbranches="0" />
+    <class name="DeckSwipe.CardModel.ActionOutcome" coveredlines="0" coverablelines="24" totallines="42" coveredbranches="0" totalbranches="0" />
+    <class name="DeckSwipe.CardModel.Card" coveredlines="0" coverablelines="74" totallines="127" coveredbranches="0" totalbranches="0" />
+    <class name="DeckSwipe.CardModel.Character" coveredlines="0" coverablelines="4" totallines="17" coveredbranches="0" totalbranches="0" />
+    <class name="DeckSwipe.CardModel.DrawQueue.CardDrawQueue" coveredlines="26" coverablelines="30" totallines="49" coveredbranches="0" totalbranches="0" />
+    <class name="DeckSwipe.CardModel.DrawQueue.Followup" coveredlines="9" coverablelines="12" totallines="32" coveredbranches="0" totalbranches="0" />
+    <class name="DeckSwipe.CardModel.DrawQueue.SpecialFollowup" coveredlines="0" coverablelines="12" totallines="32" coveredbranches="0" totalbranches="0" />
+    <class name="DeckSwipe.CardModel.GameOverOutcome" coveredlines="0" coverablelines="3" totallines="11" coveredbranches="0" totalbranches="0" />
+    <class name="DeckSwipe.CardModel.Import.CollectionImporter" coveredlines="0" coverablelines="208" totallines="356" coveredbranches="0" totalbranches="0" />
+    <class name="DeckSwipe.CardModel.Import.ImportedCards" coveredlines="0" coverablelines="4" totallines="19" coveredbranches="0" totalbranches="0" />
+    <class name="DeckSwipe.CardModel.Import.ProtoAction" coveredlines="0" coverablelines="8" totallines="30" coveredbranches="0" totalbranches="0" />
+    <class name="DeckSwipe.CardModel.Import.ProtoCard" coveredlines="0" coverablelines="21" totallines="52" coveredbranches="0" totalbranches="0" />
+    <class name="DeckSwipe.CardModel.Import.ProtoCardPrerequisite" coveredlines="0" coverablelines="4" totallines="19" coveredbranches="0" totalbranches="0" />
+    <class name="DeckSwipe.CardModel.Import.ProtoCharacter" coveredlines="0" coverablelines="7" totallines="25" coveredbranches="0" totalbranches="0" />
+    <class name="DeckSwipe.CardModel.Import.ProtoCollection" coveredlines="0" coverablelines="7" totallines="25" coveredbranches="0" totalbranches="0" />
+    <class name="DeckSwipe.CardModel.Import.ProtoImage" coveredlines="0" coverablelines="6" totallines="22" coveredbranches="0" totalbranches="0" />
+    <class name="DeckSwipe.CardModel.Import.ProtoSpecialAction" coveredlines="0" coverablelines="7" totallines="27" coveredbranches="0" totalbranches="0" />
+    <class name="DeckSwipe.CardModel.Import.ProtoSpecialCard" coveredlines="0" coverablelines="17" totallines="44" coveredbranches="0" totalbranches="0" />
+    <class name="DeckSwipe.CardModel.Import.ProtoSpecialCardPrerequisite" coveredlines="0" coverablelines="4" totallines="19" coveredbranches="0" totalbranches="0" />
+    <class name="DeckSwipe.CardModel.Import.Resource.GoogleSheetsCollection" coveredlines="0" coverablelines="184" totallines="349" coveredbranches="0" totalbranches="0" />
+    <class name="DeckSwipe.CardModel.Import.Resource.GoogleSheetsConfig" coveredlines="0" coverablelines="31" totallines="55" coveredbranches="0" totalbranches="0" />
+    <class name="DeckSwipe.CardModel.Import.Resource.GoogleSheetsSecrets" coveredlines="0" coverablelines="33" totallines="57" coveredbranches="0" totalbranches="0" />
+    <class name="DeckSwipe.CardModel.Import.Resource.LocalCollection" coveredlines="0" coverablelines="11" totallines="34" coveredbranches="0" totalbranches="0" />
+    <class name="DeckSwipe.CardModel.Prerequisite.CardPrerequisite" coveredlines="0" coverablelines="9" totallines="28" coveredbranches="0" totalbranches="0" />
+    <class name="DeckSwipe.CardModel.Prerequisite.SpecialCardPrerequisite" coveredlines="0" coverablelines="9" totallines="28" coveredbranches="0" totalbranches="0" />
+    <class name="DeckSwipe.CardModel.SpecialCard" coveredlines="0" coverablelines="45" totallines="87" coveredbranches="0" totalbranches="0" />
+    <class name="DeckSwipe.CardModel.StatsModification" coveredlines="0" coverablelines="9" totallines="28" coveredbranches="0" totalbranches="0" />
+    <class name="DeckSwipe.Game" coveredlines="1" coverablelines="71" totallines="126" coveredbranches="0" totalbranches="0" />
+    <class name="DeckSwipe.Gamestate.CardProgress" coveredlines="0" coverablelines="6" totallines="23" coveredbranches="0" totalbranches="0" />
+    <class name="DeckSwipe.Gamestate.CardStorage" coveredlines="0" coverablelines="65" totallines="131" coveredbranches="0" totalbranches="0" />
+    <class name="DeckSwipe.Gamestate.GameProgress" coveredlines="0" coverablelines="37" totallines="58" coveredbranches="0" totalbranches="0" />
+    <class name="DeckSwipe.Gamestate.Persistence.ProgressStorage" coveredlines="0" coverablelines="37" totallines="60" coveredbranches="0" totalbranches="0" />
+    <class name="DeckSwipe.Gamestate.SpecialCardProgress" coveredlines="0" coverablelines="6" totallines="23" coveredbranches="0" totalbranches="0" />
+    <class name="DeckSwipe.Gamestate.Stats" coveredlines="0" coverablelines="65" totallines="98" coveredbranches="0" totalbranches="0" />
+    <class name="DeckSwipe.World.CardBehaviour" coveredlines="2" coverablelines="123" totallines="200" coveredbranches="0" totalbranches="0" />
+    <class name="DeckSwipe.World.CardDescriptionDisplay" coveredlines="0" coverablelines="27" totallines="48" coveredbranches="0" totalbranches="0" />
+    <class name="DeckSwipe.World.GameStartOverlay" coveredlines="3" coverablelines="154" totallines="240" coveredbranches="0" totalbranches="0" />
+    <class name="DeckSwipe.World.InputDispatcher" coveredlines="2" coverablelines="38" totallines="61" coveredbranches="0" totalbranches="0" />
+    <class name="DeckSwipe.World.ProgressDisplay" coveredlines="0" coverablelines="23" totallines="42" coveredbranches="0" totalbranches="0" />
+    <class name="DeckSwipe.World.StatsDisplay" coveredlines="0" coverablelines="36" totallines="77" coveredbranches="0" totalbranches="0" />
+    <class name="Outfrost.Debug.VersionText" coveredlines="0" coverablelines="3" totallines="19" coveredbranches="0" totalbranches="0" />
+    <class name="Outfrost.GoogleSheets.CellData" coveredlines="0" coverablelines="5" totallines="27" coveredbranches="0" totalbranches="0" />
+    <class name="Outfrost.JsonFile[T]" coveredlines="0" coverablelines="41" totallines="68" coveredbranches="0" totalbranches="0" />
+    <class name="Outfrost.JsonResources" coveredlines="11" coverablelines="14" totallines="35" coveredbranches="0" totalbranches="0" />
+    <class name="Outfrost.Util" coveredlines="30" coverablelines="33" totallines="57" coveredbranches="0" totalbranches="0" />
+    <class name="UtilTestsResources" coveredlines="5" coverablelines="6" totallines="55" coveredbranches="0" totalbranches="0" />
+  </assembly>
+  <assembly name="PlayTests">
+    <class name="Tests.UtilTests" coveredlines="11" coverablelines="11" totallines="33" coveredbranches="0" totalbranches="0" />
+  </assembly>
+</coverage>

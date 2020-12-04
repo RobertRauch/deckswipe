@@ -714,6 +714,8 @@ PlayerSettings:
       daydreamIconForeground: {fileID: 0}
       daydreamIconBackground: {fileID: 0}
   cloudServicesEnabled:
+    Build: 1
+    Collab: 0
     UNet: 1
   luminIcon:
     m_Name: 
@@ -727,10 +729,10 @@ PlayerSettings:
     m_VersionCode: 1
     m_VersionName: 
   apiCompatibilityLevel: 3
-  cloudProjectId: 4404eb8a-7d26-467a-98de-f75e2f482e66
+  cloudProjectId: 854226b2-6c1f-41fe-8e7e-19c09149ad7a
   framebufferDepthMemorylessMode: 0
   projectName: DeckSwipe
-  organizationId: outfrost
+  organizationId: dajmon
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
   disableOldInputManagerSupport: 0

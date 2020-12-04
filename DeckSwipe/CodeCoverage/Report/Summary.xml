@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CoverageReport scope="Summary">
+  <Summary>
+    <Generatedon>12/4/2020 - 6:02:05 PM</Generatedon>
+    <Parser>MultiReportParser (2x OpenCoverParser)</Parser>
+    <Assemblies>3</Assemblies>
+    <Classes>50</Classes>
+    <Files>50</Files>
+    <Coveredlines>388</Coveredlines>
+    <Uncoveredlines>1357</Uncoveredlines>
+    <Coverablelines>1745</Coverablelines>
+    <Totallines>3417</Totallines>
+    <Linecoverage>22.2</Linecoverage>
+    <Coveredbranches>0</Coveredbranches>
+    <Totalbranches>0</Totalbranches>
+  </Summary>
+  <Coverage>
+    <Assembly name="EditMode" classes="3" coverage="100" coveredlines="113" coverablelines="113" totallines="208" branchcoverage="" coveredbranches="0" totalbranches="0">
+      <Class name="Tests.CardDrawQueueTests" coverage="100" coveredlines="40" coverablelines="40" totallines="71" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Tests.JsonTests" coverage="100" coveredlines="15" coverablelines="15" totallines="35" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Tests.UtilTests" coverage="100" coveredlines="58" coverablelines="58" totallines="102" branchcoverage="" coveredbranches="0" totalbranches="0" />
+    </Assembly>
+    <Assembly name="Outfrost.DeckSwipe" classes="46" coverage="15.9" coveredlines="256" coverablelines="1607" totallines="3145" branchcoverage="" coveredbranches="0" totalbranches="0">
+      <Class name="ActionPreview" coverage="14.2" coveredlines="5" coverablelines="35" totallines="79" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="DeckSwipe.CardModel.ActionOutcome" coverage="16.6" coveredlines="4" coverablelines="24" totallines="42" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="DeckSwipe.CardModel.Card" coverage="14.8" coveredlines="11" coverablelines="74" totallines="127" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="DeckSwipe.CardModel.Character" coverage="100" coveredlines="4" coverablelines="4" totallines="17" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="DeckSwipe.CardModel.DrawQueue.CardDrawQueue" coverage="86.6" coveredlines="26" coverablelines="30" totallines="49" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="DeckSwipe.CardModel.DrawQueue.Followup" coverage="75" coveredlines="9" coverablelines="12" totallines="32" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="DeckSwipe.CardModel.DrawQueue.SpecialFollowup" coverage="0" coveredlines="0" coverablelines="12" totallines="32" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="DeckSwipe.CardModel.GameOverOutcome" coverage="0" coveredlines="0" coverablelines="3" totallines="11" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="DeckSwipe.CardModel.Import.CollectionImporter" coverage="47.5" coveredlines="99" coverablelines="208" totallines="356" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="DeckSwipe.CardModel.Import.ImportedCards" coverage="100" coveredlines="4" coverablelines="4" totallines="19" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="DeckSwipe.CardModel.Import.ProtoAction" coverage="12.5" coveredlines="1" coverablelines="8" totallines="30" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="DeckSwipe.CardModel.Import.ProtoCard" coverage="4.7" coveredlines="1" coverablelines="21" totallines="52" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="DeckSwipe.CardModel.Import.ProtoCardPrerequisite" coverage="0" coveredlines="0" coverablelines="4" totallines="19" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="DeckSwipe.CardModel.Import.ProtoCharacter" coverage="14.2" coveredlines="1" coverablelines="7" totallines="25" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="DeckSwipe.CardModel.Import.ProtoCollection" coverage="100" coveredlines="7" coverablelines="7" totallines="25" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="DeckSwipe.CardModel.Import.ProtoImage" coverage="16.6" coveredlines="1" coverablelines="6" totallines="22" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="DeckSwipe.CardModel.Import.ProtoSpecialAction" coverage="14.2" coveredlines="1" coverablelines="7" totallines="27" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="DeckSwipe.CardModel.Import.ProtoSpecialCard" coverage="5.8" coveredlines="1" coverablelines="17" totallines="44" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="DeckSwipe.CardModel.Import.ProtoSpecialCardPrerequisite" coverage="0" coveredlines="0" coverablelines="4" totallines="19" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="DeckSwipe.CardModel.Import.Resource.GoogleSheetsCollection" coverage="0" coveredlines="0" coverablelines="184" totallines="349" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="DeckSwipe.CardModel.Import.Resource.GoogleSheetsConfig" coverage="0" coveredlines="0" coverablelines="31" totallines="55" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="DeckSwipe.CardModel.Import.Resource.GoogleSheetsSecrets" coverage="0" coveredlines="0" coverablelines="33" totallines="57" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="DeckSwipe.CardModel.Import.Resource.LocalCollection" coverage="100" coveredlines="11" coverablelines="11" totallines="34" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="DeckSwipe.CardModel.Prerequisite.CardPrerequisite" coverage="66.6" coveredlines="6" coverablelines="9" totallines="28" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="DeckSwipe.CardModel.Prerequisite.SpecialCardPrerequisite" coverage="0" coveredlines="0" coverablelines="9" totallines="28" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="DeckSwipe.CardModel.SpecialCard" coverage="22.2" coveredlines="10" coverablelines="45" totallines="87" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="DeckSwipe.CardModel.StatsModification" coverage="0" coveredlines="0" coverablelines="9" totallines="28" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="DeckSwipe.Game" coverage="1.3" coveredlines="1" coverablelines="72" totallines="129" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="DeckSwipe.Gamestate.CardProgress" coverage="0" coveredlines="0" coverablelines="6" totallines="23" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="DeckSwipe.Gamestate.CardStorage" coverage="0" coveredlines="0" coverablelines="65" totallines="131" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="DeckSwipe.Gamestate.GameProgress" coverage="0" coveredlines="0" coverablelines="37" totallines="58" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="DeckSwipe.Gamestate.Persistence.ProgressStorage" coverage="0" coveredlines="0" coverablelines="37" totallines="60" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="DeckSwipe.Gamestate.SpecialCardProgress" coverage="0" coveredlines="0" coverablelines="6" totallines="23" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="DeckSwipe.Gamestate.Stats" coverage="0" coveredlines="0" coverablelines="65" totallines="98" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="DeckSwipe.World.CardBehaviour" coverage="1.6" coveredlines="2" coverablelines="123" totallines="201" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="DeckSwipe.World.CardDescriptionDisplay" coverage="0" coveredlines="0" coverablelines="27" totallines="48" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="DeckSwipe.World.GameStartOverlay" coverage="1.9" coveredlines="3" coverablelines="152" totallines="240" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="DeckSwipe.World.InputDispatcher" coverage="5.2" coveredlines="2" coverablelines="38" totallines="61" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="DeckSwipe.World.ProgressDisplay" coverage="0" coveredlines="0" coverablelines="23" totallines="42" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="DeckSwipe.World.StatsDisplay" coverage="0" coveredlines="0" coverablelines="36" totallines="77" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Outfrost.Debug.VersionText" coverage="0" coveredlines="0" coverablelines="3" totallines="19" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Outfrost.GoogleSheets.CellData" coverage="0" coveredlines="0" coverablelines="5" totallines="27" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Outfrost.JsonFile[T]" coverage="0" coveredlines="0" coverablelines="41" totallines="68" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Outfrost.JsonResources" coverage="78.5" coveredlines="11" coverablelines="14" totallines="35" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Outfrost.Util" coverage="90.9" coveredlines="30" coverablelines="33" totallines="57" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="UtilTestsResources" coverage="83.3" coveredlines="5" coverablelines="6" totallines="55" branchcoverage="" coveredbranches="0" totalbranches="0" />
+    </Assembly>
+    <Assembly name="PlayTests" classes="1" coverage="76" coveredlines="19" coverablelines="25" totallines="64" branchcoverage="" coveredbranches="0" totalbranches="0">
+      <Class name="Tests.UtilTests" coverage="76" coveredlines="19" coverablelines="25" totallines="64" branchcoverage="" coveredbranches="0" totalbranches="0" />
+    </Assembly>
+  </Coverage>
+</CoverageReport>

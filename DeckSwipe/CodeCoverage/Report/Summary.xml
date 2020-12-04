@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <CoverageReport scope="Summary">
   <Summary>
-    <Generatedon>12/4/2020 - 6:29:01 PM</Generatedon>
+    <Generatedon>12/4/2020 - 7:45:07 PM</Generatedon>
     <Parser>MultiReportParser (2x OpenCoverParser)</Parser>
     <Assemblies>3</Assemblies>
     <Classes>50</Classes>
     <Files>50</Files>
     <Coveredlines>392</Coveredlines>
-    <Uncoveredlines>1357</Uncoveredlines>
-    <Coverablelines>1749</Coverablelines>
-    <Totallines>3421</Totallines>
-    <Linecoverage>22.4</Linecoverage>
+    <Uncoveredlines>1374</Uncoveredlines>
+    <Coverablelines>1766</Coverablelines>
+    <Totallines>3423</Totallines>
+    <Linecoverage>22.1</Linecoverage>
     <Coveredbranches>0</Coveredbranches>
     <Totalbranches>0</Totalbranches>
   </Summary>
   <Coverage>
-    <Assembly name="EditMode" classes="3" coverage="100" coveredlines="113" coverablelines="113" totallines="208" branchcoverage="" coveredbranches="0" totalbranches="0">
+    <Assembly name="EditMode" classes="3" coverage="83" coveredlines="113" coverablelines="136" totallines="210" branchcoverage="" coveredbranches="0" totalbranches="0">
       <Class name="Tests.CardDrawQueueTests" coverage="100" coveredlines="40" coverablelines="40" totallines="71" branchcoverage="" coveredbranches="0" totalbranches="0" />
-      <Class name="Tests.JsonTests" coverage="100" coveredlines="15" coverablelines="15" totallines="35" branchcoverage="" coveredbranches="0" totalbranches="0" />
-      <Class name="Tests.UtilTests" coverage="100" coveredlines="58" coverablelines="58" totallines="102" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Tests.JsonTests" coverage="78.9" coveredlines="15" coverablelines="19" totallines="36" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="Tests.UtilTests" coverage="75.3" coveredlines="58" coverablelines="77" totallines="103" branchcoverage="" coveredbranches="0" totalbranches="0" />
     </Assembly>
     <Assembly name="Outfrost.DeckSwipe" classes="46" coverage="15.9" coveredlines="256" coverablelines="1607" totallines="3145" branchcoverage="" coveredbranches="0" totalbranches="0">
       <Class name="ActionPreview" coverage="14.2" coveredlines="5" coverablelines="35" totallines="79" branchcoverage="" coveredbranches="0" totalbranches="0" />
@@ -68,8 +68,8 @@
       <Class name="Outfrost.Util" coverage="90.9" coveredlines="30" coverablelines="33" totallines="57" branchcoverage="" coveredbranches="0" totalbranches="0" />
       <Class name="UtilTestsResources" coverage="83.3" coveredlines="5" coverablelines="6" totallines="55" branchcoverage="" coveredbranches="0" totalbranches="0" />
     </Assembly>
-    <Assembly name="PlayTests" classes="1" coverage="79.3" coveredlines="23" coverablelines="29" totallines="68" branchcoverage="" coveredbranches="0" totalbranches="0">
-      <Class name="Tests.UtilTests" coverage="79.3" coveredlines="23" coverablelines="29" totallines="68" branchcoverage="" coveredbranches="0" totalbranches="0" />
+    <Assembly name="PlayTests" classes="1" coverage="100" coveredlines="23" coverablelines="23" totallines="68" branchcoverage="" coveredbranches="0" totalbranches="0">
+      <Class name="Tests.UtilTests" coverage="100" coveredlines="23" coverablelines="23" totallines="68" branchcoverage="" coveredbranches="0" totalbranches="0" />
     </Assembly>
   </Coverage>
 </CoverageReport>

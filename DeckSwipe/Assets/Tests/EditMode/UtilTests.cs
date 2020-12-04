@@ -1,6 +1,7 @@
 ﻿using NUnit.Framework;
 using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 using TMPro;
 using UnityEditor.SceneManagement;
 using UnityEngine;
@@ -18,7 +19,7 @@ namespace Tests
             Assert.IsNotNull(scene);
             EditorSceneManager.OpenScene(scene.path, OpenSceneMode.Single);
 
-            UtilTestsResources tests = MonoBehaviour.FindObjectOfType<UtilTestsResources>();
+            UtilTestsResources tests = Resources.FindObjectsOfTypeAll<UtilTestsResources>().FirstOrDefault();
             Assert.IsNotNull(tests);
 
             Assert.IsTrue(Outfrost.Util.IsPrefab(tests.PrefabGameObject));
@@ -32,7 +33,7 @@ namespace Tests
             Assert.IsNotNull(scene);
             EditorSceneManager.OpenScene(scene.path, OpenSceneMode.Single);
 
-            UtilTestsResources tests = MonoBehaviour.FindObjectOfType<UtilTestsResources>();
+            UtilTestsResources tests = Resources.FindObjectsOfTypeAll<UtilTestsResources>().FirstOrDefault();
             Assert.IsNotNull(tests);
 
             TextMeshPro textMeshPro = tests.TestTextMeshPro;
@@ -52,7 +53,7 @@ namespace Tests
             Assert.IsNotNull(scene);
             EditorSceneManager.OpenScene(scene.path, OpenSceneMode.Single);
 
-            UtilTestsResources tests = MonoBehaviour.FindObjectOfType<UtilTestsResources>();
+            UtilTestsResources tests = Resources.FindObjectsOfTypeAll<UtilTestsResources>().FirstOrDefault();
             Assert.IsNotNull(tests);
 
             Assert.IsNotNull(tests.Card);
@@ -92,7 +93,7 @@ namespace Tests
             Assert.IsNotNull(scene);
             EditorSceneManager.OpenScene(scene.path, OpenSceneMode.Single);
 
-            UtilTestsResources tests = MonoBehaviour.FindObjectOfType<UtilTestsResources>();
+            UtilTestsResources tests = Resources.FindObjectsOfTypeAll<UtilTestsResources>().FirstOrDefault();
             Assert.IsNotNull(tests);
 
             float result = Outfrost.Util.OrthoCameraWorldDiagonalSize(tests.Camera);

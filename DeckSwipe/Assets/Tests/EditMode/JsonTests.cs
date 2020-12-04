@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 using NUnit.Framework;
 using UnityEditor.SceneManagement;
 using UnityEngine;
@@ -18,7 +19,7 @@ namespace Tests
             Assert.IsNotNull(scene);
             EditorSceneManager.OpenScene(scene.path, OpenSceneMode.Single);
 
-            UtilTestsResources tests = MonoBehaviour.FindObjectOfType<UtilTestsResources>();
+            UtilTestsResources tests = Resources.FindObjectsOfTypeAll<UtilTestsResources>().FirstOrDefault();
             Assert.IsNotNull(tests);
 
             List<TestClass> testClasses = Outfrost.JsonResources.Load<TestClass>("Editor/Tests");

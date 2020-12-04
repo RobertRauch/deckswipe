@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <CoverageReport scope="Summary">
   <Summary>
-    <Generatedon>12/4/2020 - 6:02:05 PM</Generatedon>
+    <Generatedon>12/4/2020 - 6:29:01 PM</Generatedon>
     <Parser>MultiReportParser (2x OpenCoverParser)</Parser>
     <Assemblies>3</Assemblies>
     <Classes>50</Classes>
     <Files>50</Files>
-    <Coveredlines>388</Coveredlines>
+    <Coveredlines>392</Coveredlines>
     <Uncoveredlines>1357</Uncoveredlines>
-    <Coverablelines>1745</Coverablelines>
-    <Totallines>3417</Totallines>
-    <Linecoverage>22.2</Linecoverage>
+    <Coverablelines>1749</Coverablelines>
+    <Totallines>3421</Totallines>
+    <Linecoverage>22.4</Linecoverage>
     <Coveredbranches>0</Coveredbranches>
     <Totalbranches>0</Totalbranches>
   </Summary>
@@ -68,8 +68,8 @@
       <Class name="Outfrost.Util" coverage="90.9" coveredlines="30" coverablelines="33" totallines="57" branchcoverage="" coveredbranches="0" totalbranches="0" />
       <Class name="UtilTestsResources" coverage="83.3" coveredlines="5" coverablelines="6" totallines="55" branchcoverage="" coveredbranches="0" totalbranches="0" />
     </Assembly>
-    <Assembly name="PlayTests" classes="1" coverage="76" coveredlines="19" coverablelines="25" totallines="64" branchcoverage="" coveredbranches="0" totalbranches="0">
-      <Class name="Tests.UtilTests" coverage="76" coveredlines="19" coverablelines="25" totallines="64" branchcoverage="" coveredbranches="0" totalbranches="0" />
+    <Assembly name="PlayTests" classes="1" coverage="79.3" coveredlines="23" coverablelines="29" totallines="68" branchcoverage="" coveredbranches="0" totalbranches="0">
+      <Class name="Tests.UtilTests" coverage="79.3" coveredlines="23" coverablelines="29" totallines="68" branchcoverage="" coveredbranches="0" totalbranches="0" />
     </Assembly>
   </Coverage>
 </CoverageReport>

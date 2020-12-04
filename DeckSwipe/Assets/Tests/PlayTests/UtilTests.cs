@@ -34,19 +34,23 @@ namespace Tests
         }
 
         [UnityTest]
-        public IEnumerator MyAsyncTest()
+        public IEnumerator CollectionImporterTest()
         {
             Sprite sprite = Sprite.Create(new Texture2D(1,1), new Rect(), new Vector2());
             CollectionImporter importer = new CollectionImporter(sprite, false);
             var task = importer.Import();
-            yield return AsIEnumeratorReturnNull(task);
+            yield return GetCollection(task);
 
             var returnValue = task.Result;
             //Debug.LogError("CARDS: " + returnValue.cards.Count);
-            Assert.AreEqual(11, returnValue.cards.Count);
+            Assert.IsTrue(returnValue.cards.Count > 0);
+            foreach(var card in returnValue.cards)
+            {
+                Assert.IsNotNull(card);
+            }
         }
 
-        public static IEnumerator AsIEnumeratorReturnNull<T>(Task<T> task)
+        public static IEnumerator GetCollection<T>(Task<T> task)
         {
             while (!task.IsCompleted)
             {

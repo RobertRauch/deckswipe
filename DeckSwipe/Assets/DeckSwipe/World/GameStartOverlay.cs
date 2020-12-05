@@ -49,8 +49,8 @@ namespace DeckSwipe.World {
 		}
 		
 		private void Start() {
-			//SetOverlayVisible(false);
-			//SetBlackSlateVisible(true);
+			SetOverlayVisible(false);
+			SetBlackSlateVisible(true);
 			overlayState = OverlayState.Black;
 		}
 		
